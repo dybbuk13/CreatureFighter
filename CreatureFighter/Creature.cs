@@ -29,5 +29,5 @@ namespace CreatureFighter
         {
             this.creatureName = name;
         }
-    }
+        }
 }
