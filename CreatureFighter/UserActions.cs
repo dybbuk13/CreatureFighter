@@ -22,9 +22,9 @@ namespace CreatureFighter
             {
                 if (creature.creatureName == name && creature.isAlive != false)
                 {
-                    creature.health -= attackDamage;
+                    creature.creatureHealth -= attackDamage;
                     Console.WriteLine($"You successfully dealt {attackDamage}.");
-                    if (creature.health <= 0)
+                    if (creature.creatureHealth <= 0)
                     {
                         creature.isAlive = false;
                         creatures.Remove(creature);

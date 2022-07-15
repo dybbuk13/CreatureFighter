@@ -11,11 +11,11 @@ namespace CreatureFighter
         /// <summary>
         /// 
         /// </summary>
-        public int health = RandomNumbers.GetRandomHealth();
+        public string creatureName;
         /// <summary>
         /// 
         /// </summary>
-        public string creatureName;
+        public int creatureHealth = RandomNumbers.GetRandomHealth();
         /// <summary>
         /// 
         /// </summary>
